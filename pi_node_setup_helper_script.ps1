@@ -469,7 +469,7 @@ function Do-InstallDocker {
 
         Write-Host "Starte Silent-Installation von Docker Desktop..." -ForegroundColor Yellow
         Write-Log "Führe winget-Installation aus: Docker.DockerDesktop" "INFO"
-        winget install --id Docker.DockerDesktop -e --silent --accept-package-agreements --accept-source-agreements
+        winget install --id Docker.DockerDesktop -e --accept-package-agreements --accept-source-agreements
         $exitCode = $LASTEXITCODE
         Write-Log "Docker winget-Installations-ExitCode: $exitCode" "INFO"
 
