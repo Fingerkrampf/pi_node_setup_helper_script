@@ -23,14 +23,11 @@
 
 This PowerShell script simplifies and automates the setup of a Pi Node on Windows 11 (using PowerShell 5.1). It offers a comprehensive solution covering both basic node installation and advanced configurations, such as WireGuard tunnels for operation behind IPv6 connections.
 
-The script is designed to be user-friendly, guiding the user through an interactive menu. It is fully bilingual (German/English) and automatically adapts to the operating system's language.
+The script is designed to be user-friendly, guiding the user through an interactive menu.
 
 ## 🌟 Key Features
 
 * **Interactive Menu:** Easy navigation and control of all setup steps.
-* **Bilingual User Interface:**
-    * Automatic detection of the system language (German `de-DE` or English as default).
-    * All menus, instructions, and user prompts are displayed in the detected language.
 * **Automated Installation & Configuration:**
     * Windows Updates
     * WSL2 (Windows Subsystem for Linux Version 2) setup
@@ -67,8 +64,7 @@ The script is designed to be user-friendly, guiding the user through an interact
 2.  Extract it.
 3.  Right-click the "start.bat" file and select "Run as Administrator".
     * If you are not already logged in as an administrator, the script will ask if it should restart with administrator rights. Confirm this.
-4.  The script detects your system language and displays the main menu in either German or English.
-5.  Follow the instructions in the menu to perform the desired setup steps. It is recommended to work through the steps in numerical order (at least 1-5 for basic node setup).
+4.  Follow the instructions in the menu to perform the desired setup steps. It is recommended to work through the steps in numerical order (at least 1-5 for basic node setup).
 
 ## 📝 Logging
 
@@ -120,14 +116,11 @@ This script is distributed in the hope that it will be useful, but WITHOUT ANY W
 
 Dieses PowerShell-Skript dient zur Vereinfachung und Automatisierung der Einrichtung eines Pi Nodes unter Windows 11 (mit PowerShell 5.1). Es bietet eine umfassende Lösung, die sowohl die grundlegende Node-Installation als auch erweiterte Konfigurationen wie WireGuard-Tunnel für den Betrieb hinter IPv6-Anschlüssen abdeckt.
 
-Das Skript ist darauf ausgelegt, benutzerfreundlich zu sein und führt den Anwender durch ein interaktives Menü. Es ist vollständig zweisprachig (Deutsch/Englisch) und passt sich automatisch der Systemsprache des Betriebssystems an.
+Das Skript ist darauf ausgelegt, benutzerfreundlich zu sein und führt den Anwender durch ein interaktives Menü.
 
 ## 🌟 Hauptmerkmale
 
 * **Interaktives Menü:** Einfache Navigation und Steuerung aller Setup-Schritte.
-* **Zweisprachige Benutzeroberfläche:**
-    * Automatische Erkennung der Systemsprache (Deutsch `de-DE` oder Englisch als Standard).
-    * Alle Menüs, Anweisungen und Benutzereingaben werden in der erkannten Sprache angezeigt.
 * **Automatisierte Installation & Konfiguration:**
     * Windows Updates
     * WSL2 (Windows Subsystem für Linux Version 2) Einrichtung
@@ -164,8 +157,7 @@ Das Skript ist darauf ausgelegt, benutzerfreundlich zu sein und führt den Anwen
 2.  Extrahieren Sie sie.
 3.  Klicken Sie mit der rechten Maustaste auf die Datei "start.bat" und wählen Sie "Als Administrator ausführen" aus.
     * Wenn Sie nicht bereits als Administrator angemeldet sind, wird das Skript Sie fragen, ob es mit Administratorrechten neu gestartet werden soll. Bestätigen Sie dies.
-4.  Das Skript erkennt Ihre Systemsprache und zeigt das Hauptmenü entweder auf Deutsch oder Englisch an.
-5.  Folgen Sie den Anweisungen im Menü, um die gewünschten Setup-Schritte auszuführen. Es wird empfohlen, die Schritte in der nummerischen Reihenfolge (zumindest 1-5 für die Basis-Node-Einrichtung) abzuarbeiten.
+4.  Folgen Sie den Anweisungen im Menü, um die gewünschten Setup-Schritte auszuführen. Es wird empfohlen, die Schritte in der nummerischen Reihenfolge (zumindest 1-5 für die Basis-Node-Einrichtung) abzuarbeiten.
 
 ## 📝 Logging
 
