@@ -15,7 +15,7 @@
 
 # Pi Node Windows Setup Helper Script
 
-**Version:** 2025-07-14
+**Version:** 2025-07-26
 **Author:** Fingerkrampf / t.me/PiNetzwerkDeutschland
 **License:** GNU General Public License v3.0
 
@@ -60,7 +60,7 @@ The script is designed to be user-friendly, guiding the user through an interact
 
 ## 🚀 Usage
 
-1.  Download the `pi_node_setup_helper_script.zip` file. 
+1.  Download the `pi_node_setup_helper_script-main.zip` file. 
 2.  Extract it.
 3.  Right-click the "start.bat" file and select "Run as Administrator".
     * If you are not already logged in as an administrator, the script will ask if it should restart with administrator rights. Confirm this.
@@ -108,7 +108,7 @@ This script is distributed in the hope that it will be useful, but WITHOUT ANY W
 
 # Pi Node Windows Setup Helper Skript
 
-**Version:** 2025-07-14
+**Version:** 2025-07-26
 **Autor:** Fingerkrampf / t.me/PiNetzwerkDeutschland
 **Lizenz:** GNU General Public License v3.0
 
@@ -153,7 +153,7 @@ Das Skript ist darauf ausgelegt, benutzerfreundlich zu sein und führt den Anwen
 
 ## 🚀 Anwendung
 
-1.  Laden Sie die `pi_node_setup_helper_script.zip`-Datei herunter.
+1.  Laden Sie die `pi_node_setup_helper_script-main.zip`-Datei herunter.
 2.  Extrahieren Sie sie.
 3.  Klicken Sie mit der rechten Maustaste auf die Datei "start.bat" und wählen Sie "Als Administrator ausführen" aus.
     * Wenn Sie nicht bereits als Administrator angemeldet sind, wird das Skript Sie fragen, ob es mit Administratorrechten neu gestartet werden soll. Bestätigen Sie dies.
