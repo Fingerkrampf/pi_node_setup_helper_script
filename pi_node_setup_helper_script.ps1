@@ -271,6 +271,7 @@ return
 
         try {
             wsl --set-default-version 2
+	    wsl --update
             Write-Log "WSL2 wurde als Standardversion gesetzt." "INFO"
             Write-Host "`nWSL2 wurde als Standardversion gesetzt." -ForegroundColor Green
         } catch {
@@ -521,8 +522,8 @@ function Do-InstallPiNode {
     Write-Host "Installiere Pi Network Node Software..." -ForegroundColor Cyan
     Write-Log "Beginne Installation der Pi Network Node Software..." "INFO"
 
-    $url = "https://downloads.minepi.com/Pi%20Network%20Setup%200.5.0.exe"
-    $installerPath = "$env:TEMP\PiNetworkSetup050.exe"
+    $url = "https://github.com/pi-node/pi-node/releases/download/0.5.3/Pi.Network.Setup.0.5.3.exe"
+    $installerPath = "$env:TEMP\PiNetworkSetup053.exe"
 
     try {
         & curl.exe -L $url -o $installerPath
