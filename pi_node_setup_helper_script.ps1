@@ -352,6 +352,7 @@ return
                 Write-Log "Geplante Aufgabe zur Fortsetzung eingerichtet: $taskName" "INFO"
                	Write-Host "`nBeachten Sie dass Sie zur vollständigen Aktivierung Menüpunkt 2 nach dem Neustart NOCHMALS ausführen müssen!" -ForegroundColor White -BackgroundColor Red
                 Write-Log "System wird neu gestartet." "INFO"
+		Write-Host "Bitte führen Sie nach einen Neustart den Menüpunkt 2 erneut manuell aus um WSL2 vollständig zu aktivieren." -ForegroundColor Yellow -Backgroundcolor Red
                 Pause
                 Restart-Computer -Force
             } catch {
